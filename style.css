@@ -55,7 +55,7 @@ nav a:hover{
 main {
     background-color: #FFFFFF;
     margin: 0 50px 0 50px;
-    padding: 0 2em;
+    padding: 0 4em;
 }
 
 .sobre, .parcerias {
@@ -134,15 +134,15 @@ footer img {
     box-sizing: border-box;
 }
 
-.recife {
+.recife, .rio {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 300px;
-    padding: 5px;
+    padding: 5px 5px 30px 5px;
     gap: 5px;
 }
 
-.recife-img {
+.recife-img, .rio-img {
     position: relative;
     width: 100%;
     height: 100%;
@@ -150,6 +150,10 @@ footer img {
 }
 
 .recife-img:hover {
+    transform: scale(1.1);
+}
+
+.rio-img:hover {
     transform: scale(1.1);
 }
 
@@ -161,12 +165,9 @@ footer img {
     grid-column: span 1;
 }
 
-main {
-    padding: 0 300px;
-}
-
 .formulario {
     text-align: center;
+    margin:0 200px 50px 200px;
     padding: 30px;
     background: rgba(0, 0, 0, 0.3);
 }
@@ -212,4 +213,5 @@ fieldset input {
 
 .mapa {
     margin: 2em 0 0 0 ;
+    text-align: center;
 }
