@@ -4,6 +4,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 18px;
     background-color: black;
+    margin-top: 2em;;
 }
 
 .nav-tabs {
@@ -13,26 +14,24 @@ body {
     position: relative;
 }
 
-.nav-tabs ul {
-    text-decoration: none;
-}
 
 .nav-tabs ul li {
     float: left;
 }
 
-.nav-tabs label {
+.nav-tabs a {
+    text-decoration: none;
     width: 100%;
     padding: 25px;
     background-color: #363b48;
     display: block;
     color: #fff;
     cursor: pointer;
-    text-align: center;
+    text-align: center; 
 }
 
 .rd-tabs:checked ~ label {
-    background-color: #e54e43;
+    text-decoration: overline; 
 }
 
 .rd-tabs {
@@ -41,8 +40,13 @@ body {
 
 .topo {
     background-color: #FFFFFF;
-    margin: 2em 50px 0 50px;
+    margin: 0 50px 0 50px;
+    padding-top: 2em;
     border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+.topo img {
     text-align: center;
 }
 
@@ -56,7 +60,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 2em;
+    padding-top: 1.5em;
     width: 100%;
 }
 
