@@ -131,7 +131,7 @@ footer {
     background-color: #FFFFFF;
     margin: 0 50px 2em 50px;
     border-radius: 0 0 5px 5px;
-    padding: 100px 0 50px 300px;
+    padding: 50px 0 50px 300px;
 }
   
 
@@ -168,13 +168,13 @@ footer img {
     object-fit: cover;
 }
 
-.recife-img:hover {
+/*.recife-img:hover {
     transform: scale(1.1);
 }
 
 .rio-img:hover {
     transform: scale(1.1);
-}
+}*/
 
 .h1 {
     grid-row: span 1;
