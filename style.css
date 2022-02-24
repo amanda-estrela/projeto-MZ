@@ -8,7 +8,6 @@ body {
 }
 
 .nav-tabs {
-    width: 30%;
     height: 50px;
     margin-left: 37%;
     position: relative;
@@ -48,17 +47,20 @@ body {
 
 .topo img {
     text-align: center;
+    max-width: 100%;
+    width: auto;
 }
 
 main {
     background-color: #FFFFFF;
     margin: 0 50px 0 50px;
     padding: 0 4em;
+    line-height: 1.5;
 }
 
 .amostras {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 1.5em;
     width: 100%;
@@ -247,6 +249,7 @@ fieldset input {
     main {
         padding: 0;
     }
+ 
 
     .topo img {
         width: 100%;
@@ -263,5 +266,14 @@ fieldset input {
 
     .recife, .rio {
         grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:1024px){
+    .formulario {
+        margin: auto;
+    }   
+    .nav-tabs{
+        margin-left: 30%;
     }
 }
