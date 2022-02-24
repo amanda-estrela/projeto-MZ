@@ -130,6 +130,7 @@ main {
 }
 
 footer {
+    display: grid;
     background-color: #FFFFFF;
     margin: 0 50px 2em 50px;
     border-radius: 0 0 5px 5px;
