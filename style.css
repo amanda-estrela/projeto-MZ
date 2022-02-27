@@ -8,9 +8,9 @@ body {
 }
 
 .nav-tabs {
+    display: flex;
+    justify-content: center;
     height: 50px;
-    margin-left: 37%;
-    position: relative;
 }
 
 
@@ -60,6 +60,7 @@ main {
 
 .amostras {
     display: flex;
+    gap: 5px;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 1.5em;
@@ -250,7 +251,7 @@ fieldset input {
     body {
         width: fit-content;
         height: auto;
-    }
+    }   
 
     main {
         padding: 0;
@@ -295,7 +296,4 @@ fieldset input {
     .formulario {
         margin: auto;
     }   
-    .nav-tabs{
-        margin-left: 30%;
-    }
 }
