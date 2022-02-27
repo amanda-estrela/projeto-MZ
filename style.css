@@ -193,14 +193,18 @@ footer img {
     grid-column: span 1;
 }
 
-.formulario {
+.contato {
     text-align: center;
-    margin:0 200px 50px 200px;
     padding: 30px;
     background: rgba(0, 0, 0, 0.3);
+    
 }
-.formulario p {
+.contato p {
     padding-bottom: 10px;
+}
+
+.fab {
+    display: flex;
 }
 .icone {
     font-size: 3rem;
@@ -210,10 +214,6 @@ footer img {
 
 .icone:hover {
     transform: scale(1.1);  
-}
-
-fieldset {
-    border: none;
 }
 
 fieldset label {
@@ -293,7 +293,5 @@ fieldset input {
 }
 
 @media screen and (max-width:1024px){
-    .formulario {
-        margin: auto;
-    }   
+   
 }
