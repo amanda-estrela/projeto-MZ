@@ -24,8 +24,8 @@ Este projeto foi criado para que pudesse por em prática meus aprendizados inici
 
 ### Features
 
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
+- [x] Galeria de imagens
+- [x] Formulário de contato
 - [ ] Responsividade
 
 <p>
