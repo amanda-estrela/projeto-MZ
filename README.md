@@ -11,7 +11,7 @@ Site de escritório de arquitetura
  <a href="#features">Features</a> • 
  <a href="#tecnologias">Tecnologias</a> •  
  <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#autora">Autora</a>
 </p>
 
 <h4 align="center"> 
@@ -42,3 +42,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML]
 - [CSS]
 - [SASS]
+
+
+### Autora
+
+[Amanda Estrela](https://github.com/amanda-estrela)<br>
+Entre em contato!
+
+ 
+  <a href = "mailto:efernandes.amanda@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/amandaestrela" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+
