@@ -46,6 +46,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autora
 
+https://github.com/amanda-estrela.png<br>
 [Amanda Estrela](https://github.com/amanda-estrela)<br>
 Entre em contato!
 
